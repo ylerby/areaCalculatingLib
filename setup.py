@@ -7,14 +7,14 @@ def readme():
 
 
 setup(
-  name='speedfile',
+  name='area_calculation',
   version='0.0.1',
   author='ylerby',
   author_email='WeaklyFob@yandex.ry',
   description='library for finding the area of a circle and a triangle',
   long_description=readme(),
   long_description_content_type='text/markdown',
-  url='your_url',
+  url='https://github.com/ylerby/areaCalculatingLib',
   packages=find_packages(),
   install_requires=["pytest"],
   classifiers=[
@@ -22,7 +22,7 @@ setup(
   ],
   keywords='files speedfiles ',
   project_urls={
-    'GitHub': 'your_github'
+    'GitHub': 'https://github.com/ylerby/areaCalculatingLib'
   },
   python_requires='>=3.6'
 )
